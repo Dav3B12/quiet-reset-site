@@ -1,0 +1,53 @@
+:root{
+  --bg:#fbfaf8; --card:#ffffff; --ink:#161616; --muted:#5a5a5a; --line:#e9e6e1;
+  --btn:#161616; --btnInk:#ffffff; --radius:18px; --max:980px;
+}
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color:var(--ink); background:var(--bg); line-height:1.55; }
+a{ color:inherit; }
+.wrap{ max-width:var(--max); margin:0 auto; padding:28px 18px 72px; }
+.nav{ display:flex; align-items:center; justify-content:space-between; padding:10px 0 22px; border-bottom:1px solid var(--line); gap:12px; }
+.brand{ font-weight:600; letter-spacing:.2px; }
+.brandRow{ display:flex; align-items:center; gap:10px; }
+.logo{
+  width:400px;
+  height:400px;
+  object-fit:contain;
+}
+.brandText{ font-weight:600; letter-spacing:.2px; }
+.pill{ display:inline-flex; gap:8px; align-items:center; border:1px solid var(--line); padding:8px 12px; border-radius:999px;
+  background:rgba(255,255,255,.6); color:var(--muted); font-size:14px; white-space:nowrap; }
+.section{ margin-top:26px; }
+.hero{ padding:34px 0 18px; margin-top:0; }
+h1{ font-size:46px; line-height:1.08; margin:0 0 14px; letter-spacing:-.6px; }
+h2{ font-size:22px; margin:0 0 10px; letter-spacing:-.2px; }
+.sub{ font-size:18px; color:var(--muted); max-width:58ch; margin:0 0 22px; }
+.ctaRow{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.btn{ display:inline-flex; align-items:center; justify-content:center; padding:14px 18px; border-radius:999px; border:1px solid var(--btn);
+  background:var(--btn); color:var(--btnInk); text-decoration:none; font-weight:600; min-width:220px; }
+.btn.secondary{ background:transparent; color:var(--ink); border:1px solid var(--line); min-width:auto; }
+.fine{ font-size:14px; color:var(--muted); margin-top:10px; }
+.grid{ display:grid; grid-template-columns:1.1fr .9fr; gap:16px; margin-top:26px; }
+.two{ display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:26px; }
+.card{ background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; }
+.cardTitle{ margin:0 0 8px; font-size:18px; }
+.cardBody{ color:var(--muted); }
+.cardBody strong{ color:var(--ink); }
+.list{ margin:10px 0 0; padding-left:18px; color:var(--muted); }
+.hr{ height:1px; background:var(--line); margin:28px 0; }
+.priceRow{ display:flex; align-items:baseline; gap:10px; }
+.price{ font-size:30px; font-weight:700; letter-spacing:-.4px; color:var(--ink); }
+.priceNote{ font-size:16px; color:var(--muted); font-weight:500; }
+.badge{ display:inline-block; font-size:13px; color:var(--muted); border:1px solid var(--line); padding:6px 10px; border-radius:999px; margin-top:10px; }
+.ctaBlock{ margin-top:14px; }
+.footer{ color:var(--muted); font-size:14px; margin-top:34px; }
+.muted{ color:var(--muted); }
+@media (max-width:860px){
+  h1{ font-size:38px; }
+  .grid{ grid-template-columns:1fr; }
+  .two{ grid-template-columns:1fr; }
+  .btn{ width:100%; min-width:auto; }
+  .pill{ white-space:normal; text-align:right; }
+}
