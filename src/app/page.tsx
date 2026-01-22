@@ -14,11 +14,13 @@ export default function Page() {
       </header>
 
       <Section className="hero">
-        <h1>Love shouldn’t require bracing.</h1>
-        <p className="sub">
-          A contained, grounded 14-day nervous-system reset for people who love deeply —
-          and end up holding their breath.
-        </p>
+      <h1>Love shouldn’t require bracing.</h1>
+<p className="sub">
+  A quiet, contained reset for the part of you that learned to stay alert in closeness.
+  <br />
+  <br />
+  Fourteen days. A few minutes at a time. Nothing to prove.
+</p>
 
         <div className="ctaRow">
           <CTA href={SITE.gumroadUrl}>Begin The Quiet Reset</CTA>
@@ -28,33 +30,43 @@ export default function Page() {
         </div>
 
         <p className="fine">
-          Not therapy. No oversharing. No community pressure. Just steadier ground.
+          Not therapy. No oversharing. No pressure to move faster than your system allows. Just steadier ground.
         </p>
       </Section>
 
       <section className="grid">
-        <Card title="The problem">
-          You’re capable. You show up. You care. But connection has started to feel like vigilance:
-          tracking tone, reading distance, holding steadiness for two.
-        </Card>
-        <Card title="The point">
-          This isn’t about fixing anyone. It’s about restoring baseline inside connection — so your
-          body can stop preparing for impact.
-        </Card>
+      <Card title="When love becomes effort">
+  At some point, connection stopped being neutral.
+  <br /><br />
+  Your body learned to listen for shifts. To track tone.
+  To stay slightly ahead of what might come next.
+  <br /><br />
+  You didn’t imagine this. You adapted.
+</Card>
+
+<Card title="What this offers">
+  This isn’t about insight. It’s about relief.
+  <br /><br />
+  The Quiet Reset is designed to help your nervous system remember what safety feels like
+  inside connection — not after it ends.
+</Card>
+
       </section>
 
       <Section id="details">
         <h2>What this is</h2>
         <Card>
-          <p className="muted">
-            <strong>The Quiet Reset: Relationships</strong> is a short, practical system designed to help you:
-          </p>
-          <ul className="list">
-            <li>recognize safety earlier (patterns over potential)</li>
-            <li>end emotional interpreting without withdrawal</li>
-            <li>set boundaries without drama or over-explaining</li>
-            <li>experience closeness that actually settles your body</li>
-          </ul>
+        <p className="muted">
+  <strong>The Quiet Reset: Relationships</strong> is a short, practical system to help you:
+</p>
+
+<ul className="list">
+  <li>notice safety sooner than you notice threat</li>
+  <li>release the habit of interpreting everything</li>
+  <li>hold boundaries without rehearsing them</li>
+  <li>experience closeness that doesn’t tighten your chest</li>
+</ul>
+
         </Card>
       </Section>
 
