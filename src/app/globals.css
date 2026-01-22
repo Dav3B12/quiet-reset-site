@@ -21,8 +21,8 @@ a{ color:inherit; }
 .brand{ font-weight:600; letter-spacing:.2px; }
 .brandRow{ display:flex; align-items:center; gap:10px; }
 .logo{
-  width:300px;
-  height:300px;
+  width:200px;
+  height:200px;
   object-fit:contain;
 }
 
