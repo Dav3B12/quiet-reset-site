@@ -8,14 +8,24 @@ body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, 
   color:var(--ink); background:var(--bg); line-height:1.55; }
 a{ color:inherit; }
 .wrap{ max-width:var(--max); margin:0 auto; padding:28px 18px 72px; }
-.nav{ display:flex; align-items:center; justify-content:space-between; padding:10px 0 22px; border-bottom:1px solid var(--line); gap:12px; }
+.nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:4px 0 10px;
+  border-bottom:1px solid rgba(0,0,0,0.05);
+  gap:10px;
+}
+
+
 .brand{ font-weight:600; letter-spacing:.2px; }
 .brandRow{ display:flex; align-items:center; gap:10px; }
 .logo{
-  width:400px;
-  height:400px;
+  width:300px;
+  height:300px;
   object-fit:contain;
 }
+
 .brandText{ font-weight:600; letter-spacing:.2px; }
 .pill{ display:inline-flex; gap:8px; align-items:center; border:1px solid var(--line); padding:8px 12px; border-radius:999px;
   background:rgba(255,255,255,.6); color:var(--muted); font-size:14px; white-space:nowrap; }
