@@ -90,6 +90,51 @@ export default function Page() {
         </Card>
       </section>
 
+      <Section id="outline">
+  <h2>14-day structure</h2>
+
+  <div className="outline">
+    <div className="card">
+      <h3 className="cardTitle">Phase 1 · Orientation (Days 1–3)</h3>
+      <ul className="list">
+        <li>Day 1 — You’re Not Broken</li>
+        <li>Day 2 — What Bracing Feels Like</li>
+        <li>Day 3 — Baseline Exists</li>
+      </ul>
+    </div>
+
+    <div className="card">
+      <h3 className="cardTitle">Phase 2 · Regulation in Connection (Days 4–9)</h3>
+      <ul className="list">
+        <li>Day 4 — Before the Spike</li>
+        <li>Day 5 — During Contact</li>
+        <li>Day 6 — After Contact</li>
+        <li>Day 7 — Boundaries Without Bracing</li>
+        <li>Day 8 — When You’re Misread</li>
+        <li>Day 9 — Receiving Care</li>
+      </ul>
+    </div>
+
+    <div className="card">
+      <h3 className="cardTitle">Phase 3 · Integration (Days 10–14)</h3>
+      <ul className="list">
+        <li>Day 10 — Conflict Without Collapse</li>
+        <li>Day 11 — Grief for Old Patterns</li>
+        <li>Day 12 — Choosing What Regulates You</li>
+        <li>Day 13 — Trusting the Pause</li>
+        <li>Day 14 — What Remains</li>
+      </ul>
+    </div>
+
+    <div className="card">
+      <h3 className="cardTitle">Bonus</h3>
+      <ul className="list">
+        <li>Two Minutes After Conflict</li>
+      </ul>
+    </div>
+  </div>
+</Section>
+
       <div className="hr" />
 
       <Section>
