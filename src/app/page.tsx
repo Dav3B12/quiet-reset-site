@@ -155,8 +155,14 @@ export default function Page() {
 
           <div className="ctaBlock">
             <CTA href={SITE.gumroadUrl}>Begin The Quiet Reset</CTA>
-            <p className="fine">Founding pricing can end any time you choose. Keep it calm.</p>
           </div>
+          <p className="muted">
+  One-time purchase. Yours to keep.
+</p>
+<p className="muted">
+  Lifetime access to the full program.
+</p>
+
         </Card>
       </Section>
 
