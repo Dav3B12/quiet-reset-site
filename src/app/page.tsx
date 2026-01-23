@@ -92,6 +92,12 @@ export default function Page() {
 
       <Section id="outline">
   <h2>14-day structure</h2>
+  <p className="muted">
+  Fourteen days, arranged in three gentle phases—orientation, regulation, integration.
+</p>
+<p className="muted">
+  Nothing here is meant to be rushed—this is designed to land.
+</p>
 
   <div className="outline">
     <div className="card">
