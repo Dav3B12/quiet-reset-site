@@ -87,6 +87,26 @@ export default function Page() {
             <li>14 one-page companion sheets</li>
             <li>Bonus audio: “Two Minutes After Conflict” (reusable)</li>
           </ul>
+          <div style={{ marginTop: "16px" }}>
+  <p className="muted" style={{ marginBottom: "4px" }}>
+    Bonus audio preview
+  </p>
+  <p className="muted" style={{ marginBottom: "8px" }}>
+    A brief audio sample, if you’d like to listen.
+  </p>
+
+  <audio
+    controls
+    preload="none"
+    style={{ width: "100%" }}
+  >
+    <source
+      src="/audio/bonus-two-minutes-after-conflict.mp3"
+      type="audio/mpeg"
+    />
+    Your browser does not support the audio element.
+  </audio>
+</div>
         </Card>
       </section>
 
