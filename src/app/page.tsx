@@ -88,25 +88,6 @@ export default function Page() {
             <li>Bonus audio: “Two Minutes After Conflict” (reusable)</li>
           </ul>
           <div style={{ marginTop: "16px" }}>
-          <div className="audioAbout">
-  <h4 className="audioAboutTitle">About the Audio Background</h4>
-
-  <p className="muted">
-    Some of the audio recordings on this site include a very subtle layer of binaural tones beneath the voice.
-  </p>
-
-  <p className="muted">
-    These tones are not meant to be noticed, analyzed, or worked with. They’re simply part of the listening environment — present, but not demanding attention.
-  </p>
-
-  <p className="muted">
-    Binaural tones use slightly different frequencies in each ear, which can gently support steadier nervous system rhythms when listened to with headphones. You don’t need to focus on this or try to make anything happen. If your body responds, it will do so on its own timing. If it doesn’t, that’s completely fine.
-  </p>
-
-  <p className="muted">
-    The intention isn’t to change how you feel — just to offer a space where steadiness can arise without effort.
-  </p>
-</div>
 
   <p className="muted" style={{ marginBottom: "4px" }}>
     Bonus audio preview
@@ -128,7 +109,7 @@ export default function Page() {
   </audio>
 
   <p className="audioNote">
-    Some recordings include very subtle binaural tones beneath the voice, offering gentle support when listened to with headphones, without requiring attention or effort.
+    Each recording includes very subtle binaural tones beneath the voice, offering gentle support when listened to with headphones, without requiring attention or effort.
   </p>
 </div>
 
