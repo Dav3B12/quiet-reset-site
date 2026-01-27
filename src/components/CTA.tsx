@@ -1,3 +1,4 @@
+<a className="btn secondary" href="#outline">14-day outline</a>
 export default function CTA({
     href,
     children,
