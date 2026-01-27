@@ -189,9 +189,8 @@ export default function Page() {
   Lifetime access to the full program.
 </p>
 <p className="muted" style={{ marginTop: "12px" }}>
-  Prefer the book? You can also find <em>The Quiet Reset</em> on Amazon.
+  You can also find <em>The Quiet Reset - A Gentle Return to Yourself</em> on Amazon.
 </p>
-
 <p>
   <a
     href="https://www.amazon.com/dp/B0GJQDXM15"
@@ -202,8 +201,8 @@ export default function Page() {
     View the book on Amazon
   </a>
 </p>
-
         </Card>
+
       </Section>
 
       <footer className="footer">
